@@ -1,3 +1,31 @@
-body{
-    background-color: darkgray;
+body {
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.about{
+    text-align:center;
+}
+
+#education p {
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.employment p {
+    margin: 0;
+    padding: 0;
+}
+.employid h4 {
+    margin-top: 10px;
 }
