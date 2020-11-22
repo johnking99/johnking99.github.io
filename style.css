@@ -7,25 +7,95 @@ h1 {
     text-align: center;
 }
 
-div h4 {
+#bio{
+    text-align: left;
+    margin: 70px;
+    margin-top:0px;
+}
+
+#bio p {
+    text-align: left;
+    margin-top:0px;
+}
+
+#me {
+    height: 350px;
+    width: 280px;
+    margin: 70px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: left;
+    margin-below:0px;
+}
+
+.headrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.about{
-    text-align:center;
+.navbar li {
+    float: right;
 }
 
-#education p {
+.navbar li a {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 12px 15px;
+        text-decoration: none;
+}
+.navbar li a:hover {
+            background-color: #808080;
+}
+
+hr.solid {
+    border-top: 1px solid #808080;
+}
+
+div h4 {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0px
+}
+
+.bio{
+    text-align:left;
+}
+
+#nospace p {
     margin-top: 0px;
     padding: 0;
     margin-bottom: 0px;
 }
 
 .employment p {
-    margin: 0;
-    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
 .employid h4 {
     margin-top: 10px;
+    margin-bottom:0px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    text-decoration: none;
+    list-style: circle;
 }
