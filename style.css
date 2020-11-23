@@ -1,6 +1,7 @@
 body {
-    background-color: white;
+    background-color: whitesmoke;
     font-family: "Times New Roman", Times, serif;
+    color: black;
 }
 
 h1 {
@@ -26,13 +27,64 @@ h1 {
     margin-top:0px;
 }
 
+.about p{
+    text-align: left;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#about_title{
+    padding-left: 30px;
+}
+
 .column {
     float: left;
     width: 33.33%;
     text-align: left;
-    margin-below:0px;
 }
 
+.skillstable{
+    width: 100%;
+    padding:30px;
+}
+
+.skill_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#skill_image_logo{
+    width:100px;
+}
+
+th{
+    font-size: large;
+}
+
+.left {
+    text-align: center;
+    border: none;
+    column-width: 25px;
+    width: 550px;
+}
+
+.skill_logo{
+    width:300px;
+}
+
+.right {
+    text-align: center;
+    border: none;
+    width: 550px;
+}
+
+button {
+    text-align: center;
+    align-content: center;
+}
 .headrow:after {
     content: "";
     display: table;
@@ -49,6 +101,10 @@ h1 {
 
 .navbar li {
     float: right;
+}
+
+#logonav{
+    float: left;
 }
 
 .navbar li a {
@@ -85,11 +141,32 @@ div h4 {
 .employment p {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .employid h4 {
     margin-top: 10px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:20px;
+}
+
+.employid p {
+    text-align: left;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.employid li {
+    text-align: left;
+    font-size: 18px;
+}
+
+#employee_heading {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 ul {
@@ -98,4 +175,66 @@ ul {
     margin-left:0px;
     text-decoration: none;
     list-style: circle;
+}
+
+#educationskills {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: none;
+    margin-top: 10px;
+}
+
+#educationskills p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+
+#projects_heading {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#skills_heading {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.projects h3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.projects h4 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:20px;
+}
+
+.projects p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.projects a {
+    color: inherit;
+    text-decoration: none;
+}
+.projects h3 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+}
+
+.skillid h4 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+hr.break {
+    border-top: .5px #808080;
+    width:auto;
 }

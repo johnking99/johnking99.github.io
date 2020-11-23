@@ -14,17 +14,79 @@
             <li><a href="./employment.html">Employment</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./index.html">Home</a></li>
+            <li id="logonav"><img src="JK.png" class="photo"style="height: 35px; width: 35px; padding-top: 4px; padding-left: 8px"></li>
         </ul>
     </div>
 
     <h1>John Alexander King</h1>
-
-    <h2>Skill Set</h2>
+    <h2 id="skills_heading">Skill Set</h2>
     <hr class="solid">
-    <div>
-        <div id="skills">
-            <p>Key skills: SQL, C#, JavaScript, HTML, CSS, PHP, VBA, teamwork, organization, data analysis, cybersecurity</p>
-        </div>
+    <div class="headrow">
+        <table class="skillstable">
+            <tr>
+                <th class="left">Hard Skills</th>
+                <th class="skill_logo"></th>
+                <th class="right">Soft Skills</th>
+            </tr>
+            <tr>
+                <td class="left">JavaScript</td>
+                <td  rowspan="9" class="Skill_logo"><img id="me" src="profile_photo.jpeg" class="photo" style="border-radius:20px"></td>
+                <td class="right">Team Work</td>
+            </tr>
+            <tr>
+                <td class="left">C#</td>
+                <td class="right">Organization</td>
+            </tr>
+            <tr>
+                <td class="left">HTML</td>
+                <td class="right">Attention to Detail</td>
+            </tr>
+            <tr>
+                <td class="left">CSS</td>
+                <td class="right">Strong Work Ethic</td>
+            </tr>
+            <tr>
+                <td class="left">Website Management, WordPress</td>
+                <td class="right">Adaptability</td>
+            </tr>
+            <tr>
+                <td class="left">Adobe Creative Cloud, Microsoft Office</td>
+                <td class="right">Time Management</td>
+            </tr>
+            <tr>
+                <td class="left">Mac OS, Windows 10, Linux</td>
+                <td class="right">Communication</td>
+            </tr>
+            <tr>
+                <td class="left">Databases</td>
+                <td class="right">Problem Solving</td>
+            </tr>
+            <tr>
+                <td class="left">Data Analysis</td>
+                <td class="right">Creativity</td>
+            </tr>
+        </table>
     </div>
+
+    <button onclick="SkillsEducation()" style="border-radius:10px; background-color: #333; font-family: Times New Roman, Times, serif; color: white">Show/hide education</button>
+    <div id="educationskills">
+        <p><b>University of Oklahoma</b></p>
+        <p><i>Bachelor of Business Administration</i></p>
+        <p>Management Information Systems</p>
+    </div>
+
+    <script>
+        function SkillsEducation() {
+            var x = document.getElementById("educationskills");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+
+    <hr class="solid">
 </body>
 </html>
